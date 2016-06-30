@@ -1,0 +1,7 @@
+!/bin/bash -eu
+
+prefix=${prefix:-/usr/local}
+bindir=${bindir:-${prefix}/bin}
+
+./configure && make && cp samtools ${bindir}
+
