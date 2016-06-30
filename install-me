@@ -1,4 +1,4 @@
-!/bin/bash -eu
+#!/bin/bash -eu
 
 prefix=${prefix:-/usr/local}
 bindir=${bindir:-${prefix}/bin}
