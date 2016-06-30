@@ -1,7 +1,12 @@
 #!/bin/bash -eu
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 prefix=${prefix:-/usr/local}
 bindir=${bindir:-${prefix}/bin}
 
-./configure && make && cp samtools ${bindir}
-
+pushd ${DIR}
+./configure
+make
+cp samtools ${bindir}
+popd

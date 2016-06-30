@@ -33,9 +33,6 @@ PATH: /usr/sbin
 PATH: /usr/bin
 PATH: /sbin
 PATH: /bin
-PATH: /usr/games
-PATH: /usr/local/games
-PATH: /snap/bin
 
 
 ## ----------- ##
@@ -213,7 +210,7 @@ on bul-w08.wb
 config.status:798: creating config.mk
 config.status:798: creating config.h
 config.status:968: config.h is unchanged
-configure:5276: === configuring in htslib-1.3.1 (/home/bullard/ephemeral/wbretriever/samtools-install/htslib-1.3.1)
+configure:5276: === configuring in htslib-1.3.1 (/mnt/ephemeral/bullard/wbretriever/samtools-install/htslib-1.3.1)
 configure:5339: running /bin/bash ./configure --disable-option-checking '--prefix=/usr/local'  --cache-file=/dev/null --srcdir=.
 
 ## ---------------- ##
